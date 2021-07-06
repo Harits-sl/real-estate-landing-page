@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+# scss
+/src/assets/scss
+/src/assets/css
+!/src/assets/css/bootstrap.min.css
+
 # testing
 /coverage
 
