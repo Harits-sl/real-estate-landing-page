@@ -15,7 +15,7 @@ import Type5 from 'assets/images/type-5.png';
 const Type = () => {
   return (
     <section>
-      <div className="container">
+      <div className="container mb-100">
         <div className="row">
           <div className="col-6 position-relative">
             <img

@@ -13,6 +13,8 @@ const Hero = () => {
         Creating modern properties is our speciality, with a lot of experience
         we will help you create the modern properties you want.
       </p>
+
+      {/* element button */}
       <Button className="btn btn-lg me-4 ms-5 rounded-0" isPrimary>
         Browse thousands of Property
       </Button>
