@@ -44,11 +44,16 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <img
-        className="position-absolute bottom-0 end-0 border-radius-40 img-hero d-none d-lg-block"
-        src={ImageHero}
-        alt=""
-      />
+      <div
+        className="position-absolute bottom-0 end-0"
+        style={{ width: '60%' }}
+      >
+        <img
+          className="border-radius-40 img-hero d-none d-lg-block w-100"
+          src={ImageHero}
+          alt=""
+        />
+      </div>
     </section>
   );
 };

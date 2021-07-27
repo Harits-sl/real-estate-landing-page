@@ -7,6 +7,8 @@ import Type from 'components/Type';
 import ChooseUs from 'components/ChooseUs';
 import Articles from 'components/Articles';
 import Support from 'components/Support';
+import GetStarted from 'components/GetStarted';
+import Footer from 'components/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <ChooseUs />
       <Articles />
       <Support />
+      <GetStarted />
+      <Footer />
     </>
   );
 }
